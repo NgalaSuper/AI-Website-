@@ -163,6 +163,10 @@ margin-top: 10px;
     box-sizing: border-box;
     box-shadow: 5px 3px 3px #061930;
  }
+ .register {
+   position: relative;
+   bottom: 39px;
+ }
  .login-form .right {
    width: 80%;
     height: 291px;
@@ -177,6 +181,7 @@ margin-top: 10px;
    display: flex;
    position: relative;
    right: 36px;
+   bottom: 30px;
  }
 .click-tabs > .ul-log li {
     display: inline-block;
@@ -219,8 +224,8 @@ margin-top: 10px;
    
    color: #75d9ac;
 }
- .login-form .right .btn #sumbiti {
-    margin-top: 20px;
+ .login-form .right .btn #logini {
+      top: 30px;
     background: #061930;
     padding: 10px;
     left: 40px;
@@ -231,18 +236,60 @@ margin-top: 10px;
     width: 150%;
     border: none;
     cursor: pointer;
+    color:white;
+    position: relative;
  }
- .login-form .right .btn #sumbiti {
+ .login-form .right .btn  #sumbiti{
+   margin-top: 20px;
+   background: #061930;
+   padding: 10px;
+   left: 40px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: bold;
+   width: 150%;
+   border: none;
+   cursor: pointer;
+}
+ .login-form .right .btn #logini #sumbiti {
     text-decoration: none;
     color: white;
     font-family: Arial;
     position: relative;
-    top: 5px;
+    top: -27px;
  }
- .login-form .right .btn #sumbiti:hover {
+ .login-form .right .btn  #sumbiti {
+   text-decoration: none;
+   color: white;
+   font-family: Arial;
+   position: relative;
+   top: 25px;
+}
+ .login-form .right .btn #logini:hover {
     background: #24766c;
     border: 2px solid #04443c;
     color: white;
+ }
+ .login-form .right .btn #sumbiti:hover {
+   background: #24766c;
+   border: 2px solid #04443c;
+   color: white;
+}
+ .message{
+   width: 100%;
+   position: relative;
+   bottom: 8px;
+ }
+ .message .success {
+   font-size:16px;
+   color: #002a25;
+   display: none;
+ }
+ .message .danger {
+   font-size: 16px;
+   color: red;
+   display: none;
  }
  .error {
     border: 1px solid red;

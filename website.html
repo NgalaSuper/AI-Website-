@@ -57,16 +57,25 @@
                 <div class="input_field">
                     <input type="password" placeholder="Password" class="input" name="Password" id="Password">
                 </div>
-                <div class="btn"><button type="submit" id="sumbiti">Submit</button></div>
+                <div class="message">
+                    <div class="success" id="success">Congratulations you're registered</div>
+                    <div class="danger" id="danger">Please fill All</div>
+                </div>
+                <div class="btn"><button type="submit" id="sumbiti" onclick="message()">Submit</button></div>
+                
             </div>
             <div class="login">
                 <div class="input_field">
-                    <input type="text" placeholder="Email" class="input">
+                    <input type="text" placeholder="Email" class="input" id="emaili-login">
                 </div>
                 <div class="input_field">
-                    <input type="password" placeholder="Password" class="input">
+                    <input type="password" placeholder="Password" class="input" id="psw-login">
                 </div>
-                <div class="btn"><button type="submit" id="sumbiti">Login</button></div>
+                <div class="message">
+                    <div class="success" id="successlogin">Please waite</div>
+                    <div class="danger" id="dangerlogin">Please fill All</div>
+                </div>
+                <div class="btn"><button type="submit" id="logini" onclick="messageLogin()">Login</button></div>
             </div>
         </div>
         </form>

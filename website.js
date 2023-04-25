@@ -38,6 +38,47 @@ $(document).ready(function(){
     });
 });
 
+function message() {
+  var Name = document.getElementById('Username');
+  var email = document.getElementById('Email');
+  var psw = document.getElementById('Password');
+  const success = document.getElementById('success');
+  const danger = document.getElementById('danger');
+  if ( Name.value === '' || email.value === ' ' || psw.value === ' '){
+    danger.style.display = 'block';
+  }else {
+    setTimeout(() => {
+      Name.value = '';
+      email.value = '';
+      psw.value = '';
+    }, 2000);
+    success.style.display = 'block';
+  }
+  setTimeout(() => {
+    danger.style.display = 'none';
+    success.style.display = 'none';
+  }, 4000 );
+}
+function messageLogin() {
+  var emaillogin = document.getElementById('emaili-login');
+  var pswlogin = document.getElementById('psw-login');
+  const successlogin = document.getElementById('successlogin');
+  const dangerlogin = document.getElementById('dangerlogin');
+  if ( emaillogin.value === '' || pswlogin.value === ''){
+    dangerlogin.style.display = 'block';
+  }else {
+    setTimeout(() => {
+      emaillogin.value = '';
+      pswlogin.value = '';
+    }, 2000);
+    successlogin.style.display = 'block';
+  }
+
+    setTimeout(() => {
+      dangerlogin.style.display = 'none';
+      successlogin.style.display = 'none';
+    }, 4000 );
+}
 
 
 var swiper = new Swiper(".slide-contant", {
