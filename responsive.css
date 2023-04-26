@@ -1,4 +1,4 @@
-@media screen and (max-width: 2560px) {
+ @media screen and (width: 2560px){
     .navbar {
        width: 1660px;
     }
@@ -32,7 +32,7 @@
        font-size: 20px;
     }
     }
-    @media screen and (max-width: 820px) {
+   @media screen and (width: 820px) {
        .navbar {
           width: 819px;
        }
