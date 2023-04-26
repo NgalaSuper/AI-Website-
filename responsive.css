@@ -1,4 +1,45 @@
- @media screen and (width: 2560px){
+
+@media screen and (min-width: 905px){
+   .contn {
+      width: 875px;
+   }
+   .content-footer{
+      top: 114.3%;
+   }
+   .services1 p {
+      width: 100%;
+      left: 0;
+      bottom: 35%;
+   }
+   .services1 h4 {
+      bottom: 15%;
+   }
+   ion-icon {
+      margin-top: 25px;
+   }
+
+   .image-laptop {
+      top:81px;
+
+   }
+   .image-laptop img {
+      height: 300px;
+   }
+   .div-right {
+      top: 5%;
+   }
+   .div-right > .h4-tittle {
+      top: -42px;
+   }
+   .paragraph-tittle {
+      top: -66px;
+   }
+   .slide-container {
+      max-width: 1110px;
+   }
+}
+
+@media screen and (width: 2560px){
     .navbar {
        width: 1660px;
     }
@@ -32,7 +73,7 @@
        font-size: 20px;
     }
     }
-   @media screen and (width: 820px) {
+   @media screen and (width: 1024px) {
        .navbar {
           width: 819px;
        }
@@ -47,15 +88,15 @@
           font-size: 38px;
        }
        .contn .par {
-          width: 42%;
+         width: 52%;
           line-height: 26px;
        }
        .login-form {
-          left: 56%;
-          top: 20%;
+         left: 56%;
+         top: 16%;
        }
        .content-footer {
-          top: 64.3%;
+          top: 54.3%;
        }
        .services1 p {
           width: 100%;
@@ -93,6 +134,7 @@
        }
        .div-right {
           top: -6%;
+          left: 48%;
        }
        .div-right > .tittle-h3 {
           font-size: 38px;
@@ -102,7 +144,26 @@
           top: -34px;
        } 
        .paragraph-tittle {
-          margin-top: -51px;
+         margin-top: 44px;
+       }
+       .img-laptop {
+         top: -66px;
+         left: 29%;
+       }
+       .container{
+         left: 21%;
+       }
+       .container p {
+         position: relative;
+          top: 64px;
+       }
+       .container h1 {
+         position: relative;
+         top: 56px;
+       }
+       .container a {
+         position: relative;
+         top: 57px;
        }
        .ul-menu {
           margin-left: 0;
